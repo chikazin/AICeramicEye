@@ -1,0 +1,4 @@
+#Sat Jun 01 02:57:16 CST 2019
+base.0=C\:\\Users\\precision-Tower\\Desktop\\aiciyan\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
+renamed.0=classes.dex
+file.0=C\:\\Users\\precision-Tower\\Desktop\\aiciyan\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56\\classes.dex

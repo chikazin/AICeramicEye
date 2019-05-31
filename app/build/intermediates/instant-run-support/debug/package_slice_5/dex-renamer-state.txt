@@ -1,0 +1,4 @@
+#Sun Apr 07 18:45:29 CST 2019
+base.0=E\:\\tensorflow-source\\tensorflow-for-poets-2\\tensorflow-for-poets-2-master\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43
+renamed.0=classes.dex
+file.0=E\:\\tensorflow-source\\tensorflow-for-poets-2\\tensorflow-for-poets-2-master\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\43\\classes.dex
