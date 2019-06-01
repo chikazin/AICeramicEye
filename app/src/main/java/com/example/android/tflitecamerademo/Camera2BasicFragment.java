@@ -744,7 +744,7 @@ public class Camera2BasicFragment extends Fragment
             showMyToast(toast1,1000);
 
             Toast toast2 = Toast.makeText(a, "正在拉取苹果尊的详细信息...", Toast.LENGTH_LONG);
-            showMyToast(toast2, 2800);
+            showMyToast(toast2, 2300);
 
             Intent intent1 = new Intent(a, card1.class);
             new Handler().postDelayed(new Runnable() {
