@@ -31,8 +31,9 @@ public class card1 extends Activity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent1 = new Intent();
+        Intent intent1 = new Intent(card1.this, CameraActivity.class);
         intent1.putExtra("key", true);
         setResult(RESULT_OK, intent1);
+        startActivity(intent1);
     }
 }

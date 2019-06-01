@@ -46,6 +46,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.v13.app.FragmentCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -55,6 +56,7 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,6 +66,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
@@ -719,7 +723,8 @@ public class Camera2BasicFragment extends Fragment
      */
     private void classifyFrame() {
         if (classifier == null || getActivity() == null || cameraDevice == null) {
-            showToast("正在初始化中");
+//            a.textView1.setVisibility(View.VISIBLE);
+            showToast("正在初始化中... ");
             return;
         }
         Bitmap bitmap =
@@ -727,27 +732,47 @@ public class Camera2BasicFragment extends Fragment
         String textToShow = classifier.classifyFrame(bitmap);
         //ru
         bitmap.recycle();
+
         showToast(textToShow);
-        CameraActivity a = (CameraActivity) getActivity();
+
         /*Toast.makeText(getActivity(), "识别成功，正在拉取" + textToShow + "的详细信息...", Toast.LENGTH_SHORT).show();
         Toast.makeText(a, "识别成功，正在拉取" + textToShow + "的详细信息...", Toast.LENGTH_LONG).show();*/
-
+        CameraActivity a = (CameraActivity) getActivity();
         if (textToShow.indexOf("苹果尊") != -1 && a.judge == true) {
             a.judge = false;
-            Toast.makeText(a, "正在拉取苹果尊的详细信息...", Toast.LENGTH_SHORT).show();
+            Toast toast1 = Toast.makeText(a, "识别成功：苹果尊", Toast.LENGTH_LONG);
+            showMyToast(toast1,1000);
+
+            Toast toast2 = Toast.makeText(a, "正在拉取苹果尊的详细信息...", Toast.LENGTH_LONG);
+            showMyToast(toast2, 2800);
+
             Intent intent1 = new Intent(a, card1.class);
             new Handler().postDelayed(new Runnable() {
                 public void run() {
                     Log.e("测试", "跳转咯");
-
                     startActivityForResult(intent1, 1);
-
-
+                    a.finish();
                 }
-            }, 3000);
-
+            }, 2500);
         }
         Log.e("测试", "判断有效" + textToShow);
+    }
+
+    public void showMyToast(final Toast toast, final int cnt) {
+        final Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                toast.show();
+            }
+        }, 0,3000);
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+               toast.cancel();
+               timer.cancel();
+            }
+        },cnt);
     }
 
     /**
