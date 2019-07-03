@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AICeramicEye.iml" filepath="$PROJECT_DIR$/AICeramicEye.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tfliteCopy.iml" filepath="$PROJECT_DIR$/tfliteCopy.iml" />
     </modules>
   </component>
 </project>
