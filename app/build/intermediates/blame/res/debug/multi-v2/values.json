@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidProjects\\AICeramicEye\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\1fd67f14196066c9a1365996af2a4d57\\res\\values\\values.xml",
@@ -20,6 +20,25 @@
                         "endLines": "388,389,390,399,400,401,491,4316",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "23129,23177,23233,23989,24065,24137,29408,276188"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\template-styles.xml",
+                    "from": {
+                        "startLines": "24,20,22,27,29,34",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "792,671,735,876,907,1109",
+                        "endLines": "24,20,22,27,32,39",
+                        "endColumns": "51,60,53,27,12,12",
+                        "endOffsets": "839,727,784,899,1101,1387"
+                    },
+                    "to": {
+                        "startLines": "617,2484,2550,2580,2951,2955",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "37879,161054,165442,167773,192193,192389",
+                        "endLines": "617,2484,2550,2580,2954,2960",
+                        "endColumns": "50,59,52,26,12,12",
+                        "endOffsets": "37925,161109,165490,167795,192384,192662"
                     }
                 },
                 {
@@ -78,39 +97,39 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "17",
+                        "startLines": "16",
                         "startColumns": "4",
-                        "startOffsets": "663",
-                        "endColumns": "54",
-                        "endOffsets": "713"
+                        "startOffsets": "661",
+                        "endColumns": "95",
+                        "endOffsets": "752"
                     },
                     "to": {
-                        "startLines": "192",
+                        "startLines": "2041",
                         "startColumns": "4",
-                        "startOffsets": "9973",
-                        "endColumns": "54",
-                        "endOffsets": "10023"
+                        "startOffsets": "130248",
+                        "endColumns": "94",
+                        "endOffsets": "130338"
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\template-styles.xml",
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\base-strings.xml",
                     "from": {
-                        "startLines": "24,20,22,27,29,34",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "792,671,735,876,907,1109",
-                        "endLines": "24,20,22,27,32,39",
-                        "endColumns": "51,60,53,27,12,12",
-                        "endOffsets": "839,727,784,899,1101,1387"
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "665,708",
+                        "endLines": "18,28",
+                        "endColumns": "41,13",
+                        "endOffsets": "702,1031"
                     },
                     "to": {
-                        "startLines": "617,2484,2550,2580,2951,2955",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "37879,161054,165442,167773,192193,192389",
-                        "endLines": "617,2484,2550,2580,2954,2960",
-                        "endColumns": "50,59,52,26,12,12",
-                        "endOffsets": "37925,161109,165490,167795,192384,192662"
+                        "startLines": "575,585",
+                        "startColumns": "4,4",
+                        "startOffsets": "34477,35561",
+                        "endLines": "575,594",
+                        "endColumns": "41,13",
+                        "endOffsets": "34514,35875"
                     }
                 },
                 {
@@ -133,7 +152,7 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "19,17,16,18,22,21,20",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -147,6 +166,23 @@
                         "startOffsets": "34785,35059,36763,36807,37015,37060,37111",
                         "endColumns": "82,49,43,83,44,50,48",
                         "endOffsets": "34863,35104,36802,36886,37055,37106,37155"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "28,24,23,22,21,20,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "987,904,859,813,769,726,1058",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "1052,942,898,853,807,763,1121"
+                    },
+                    "to": {
+                        "startLines": "398,402,403,404,405,406,482",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "23849,24142,24185,24229,24274,24317,28852",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "23914,24180,24224,24269,24312,24354,28915"
                     }
                 },
                 {
@@ -169,39 +205,20 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "28,24,23,22,21,20,29",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "987,904,859,813,769,726,1058",
-                        "endColumns": "69,42,43,44,42,41,67",
-                        "endOffsets": "1052,942,898,853,807,763,1121"
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "663",
+                        "endColumns": "54",
+                        "endOffsets": "713"
                     },
                     "to": {
-                        "startLines": "398,402,403,404,405,406,482",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "23849,24142,24185,24229,24274,24317,28852",
-                        "endColumns": "69,42,43,44,42,41,67",
-                        "endOffsets": "23914,24180,24224,24269,24312,24354,28915"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\base-strings.xml",
-                    "from": {
-                        "startLines": "18,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "665,708",
-                        "endLines": "18,28",
-                        "endColumns": "41,13",
-                        "endOffsets": "702,1031"
-                    },
-                    "to": {
-                        "startLines": "575,585",
-                        "startColumns": "4,4",
-                        "startOffsets": "34477,35561",
-                        "endLines": "575,594",
-                        "endColumns": "41,13",
-                        "endOffsets": "34514,35875"
+                        "startLines": "192",
+                        "startColumns": "4",
+                        "startOffsets": "9973",
+                        "endColumns": "54",
+                        "endOffsets": "10023"
                     }
                 },
                 {
@@ -257,23 +274,6 @@
                         "startOffsets": "12828,28187,28240,28293,28346,150202,150378,150500,150762,150957",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "12912,28235,28288,28341,28394,150263,150495,150556,150823,151019"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "661",
-                        "endColumns": "95",
-                        "endOffsets": "752"
-                    },
-                    "to": {
-                        "startLines": "2041",
-                        "startColumns": "4",
-                        "startOffsets": "130248",
-                        "endColumns": "94",
-                        "endOffsets": "130338"
                     }
                 }
             ]

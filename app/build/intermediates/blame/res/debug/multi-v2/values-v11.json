@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidProjects\\AICeramicEye\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidProjects\\AICeramicEye\\app\\src\\main\\res\\values-v11\\template-styles.xml",
+                    "source": "D:\\AndroidProjects\\NewFloder\\AICeramicEye\\app\\src\\main\\res\\values-v11\\template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
